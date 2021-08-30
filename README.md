@@ -1,4 +1,6 @@
+
 # What is RespThermal : 
+- [Estimation of Respiratory Rate from Thermography Using Respiratory Likelihood Index(Sensors)](https://www.mdpi.com/1424-8220/21/13/4406)
 - サーモグラフィ画像から呼吸数を推定するシステム
     - 顔領域から呼吸数を推定 : ```EstimateRRbyFaceRQI.py```
     - 口・鼻領域から呼吸数を推定(Respiratory Quality Index) : ```EstimateRRbyNoseMouth.py```
@@ -15,5 +17,6 @@
 - サーモグラフィカメラはBoson320を使用
 - リアルタイム推論モード : ```BuildGUI.py```
 
-![デモ動画](Images/RespThermal.gif)
+![RespCompress2](https://user-images.githubusercontent.com/65318542/131355387-3ffcab52-21b5-43e2-8fdc-89e42d60ec2d.gif)
+
 
